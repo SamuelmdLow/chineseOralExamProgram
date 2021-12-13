@@ -37,25 +37,25 @@ if insideOutside == "0":
         print("他是大楼") # It is a large room
 
     # Type of Building
-    building = desc[4:8]
+    building = desc[4:7]
     if building == "000":
-        # School
-        print("这楼是学校。")
-    elif building == "001":
-        # Hospital
-        print("这楼是医院。")
-    elif building == "010":
-        # Office
-        print("这楼是办公室。")
-    elif building == "011":
-        # Store
-        print("这楼是商店。")
-    elif building == "100":
-        # Restaurant
-        print("这楼是饭店。")
-    elif building == "101":
         # House
         print("这楼是房子。")
+    elif building == "001":
+        # Store
+        print("这楼是商店。")
+    elif building == "010":
+        # Restaurant
+        print("这楼是饭店。")
+    elif building == "011":
+        # School
+        print("这楼是学校。")
+    elif building == "100":
+        # Office
+        print("这楼是办公室。")
+    elif building == "101":
+        # Hospital
+        print("这楼是医院。")
 
 else:
     # Outside 34567
